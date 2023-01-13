@@ -50,4 +50,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(5020, () => console.log('AI server started on http://localhost:5020'))
+app.listen(5020, () => console.log('AI server started on https://codex-ekeo.onrender.com'))

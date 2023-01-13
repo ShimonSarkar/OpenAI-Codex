@@ -92,7 +92,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
 
     // Send request with prompt
-    const response = await fetch('http://localhost:5020', {
+    const response = await fetch('https://codex-ekeo.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
